@@ -24,6 +24,9 @@
   border: 2px solid black;
   text-align: center;
 }
+p{
+  color: white;
+}
 .calculadora {
   display: flex;
   flex-direction: column;
@@ -87,11 +90,17 @@
   font-size: 100%;
 }
 .operador {
-  background-color: #2A1E22;
+  overflow: hidden;
+  background-color: #2a1e22;
+  font-weight: bold;
 }
-.division {
-  align-items: center;
-  background-image: url("iconos svg/math_divide_icon_157513.svg");
-  background-repeat: no-repeat;
-  
+.raiz {
+  font-size: 18px;
 }
+.btn-funcion{
+  font-size: 12px;
+}
+.borrar {
+  background-color: #D67EA8;
+}
+
