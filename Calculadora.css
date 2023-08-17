@@ -24,7 +24,7 @@
   border: 2px solid black;
   text-align: center;
 }
-p{
+p {
   color: white;
 }
 .calculadora {
@@ -76,6 +76,10 @@ p{
   margin: 1px;
 }
 
+.btn:hover {
+  transform: scale(1.2);
+}
+
 .containerBoton {
   width: 100%;
   height: 60%;
@@ -97,10 +101,9 @@ p{
 .raiz {
   font-size: 18px;
 }
-.btn-funcion{
+.btn-funcion {
   font-size: 12px;
 }
 .borrar {
-  background-color: #D67EA8;
+  background-color: #d67ea8;
 }
-
